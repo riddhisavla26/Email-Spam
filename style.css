@@ -1,0 +1,86 @@
+/* Background */
+.stApp {
+    background: linear-gradient(135deg, #0a0f1f, #111827, #020617);
+}
+
+/* Hide Streamlit Branding */
+#MainMenu, footer, header {
+    visibility: hidden;
+}
+
+/* Title */
+.main-title {
+    text-align: center;
+    font-size: 900px;
+    font-weight: 800;
+    color: #38bdf8;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px rgba(56,189,248,0.8);
+}
+
+/* Subtitle */
+.sub-title {
+    text-align: center;
+    color: #cbd5e1;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* Glass Card */
+.card {
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Text Area */
+.stTextArea textarea {
+    background-color: rgba(15,23,42,0.8) !important;
+    color: white !important;
+    border: 2px solid #38bdf8 !important;
+    border-radius: 15px !important;
+    font-size: 16px !important;
+}
+
+/* Button */
+.stButton > button {
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(90deg,#06b6d4,#3b82f6);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(59,130,246,0.8);
+}
+
+/* Spam Result */
+.spam {
+    background: rgba(239,68,68,0.15);
+    border-left: 5px solid #ef4444;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Ham Result */
+.ham {
+    background: rgba(34,197,94,0.15);
+    border-left: 5px solid #22c55e;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
